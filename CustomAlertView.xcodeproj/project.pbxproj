@@ -15,6 +15,9 @@
 		6875C0071CF7DDBA007306DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6875C0051CF7DDBA007306DD /* LaunchScreen.storyboard */; };
 		6875C0121CF7DDBA007306DD /* CustomAlertViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C0111CF7DDBA007306DD /* CustomAlertViewTests.m */; };
 		6875C01D1CF7DDBA007306DD /* CustomAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C01C1CF7DDBA007306DD /* CustomAlertViewUITests.m */; };
+		6875C02F1CF7E210007306DD /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875C02E1CF7E210007306DD /* MyAlertView.m */; };
+		68F36C251CF7EBD600B24144 /* detail_alert_left.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F36C231CF7EBD600B24144 /* detail_alert_left.png */; };
+		68F36C261CF7EBD600B24144 /* detail_alert_right.png in Resources */ = {isa = PBXBuildFile; fileRef = 68F36C241CF7EBD600B24144 /* detail_alert_right.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		6875C0181CF7DDBA007306DD /* CustomAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6875C01C1CF7DDBA007306DD /* CustomAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAlertViewUITests.m; sourceTree = "<group>"; };
 		6875C01E1CF7DDBA007306DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6875C02D1CF7E210007306DD /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		6875C02E1CF7E210007306DD /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
+		68F36C231CF7EBD600B24144 /* detail_alert_left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_alert_left.png; sourceTree = "<group>"; };
+		68F36C241CF7EBD600B24144 /* detail_alert_right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = detail_alert_right.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				6875BFFB1CF7DDBA007306DD /* AppDelegate.m */,
 				6875BFFD1CF7DDBA007306DD /* ViewController.h */,
 				6875BFFE1CF7DDBA007306DD /* ViewController.m */,
+				6875C02D1CF7E210007306DD /* MyAlertView.h */,
+				6875C02E1CF7E210007306DD /* MyAlertView.m */,
+				68F36C231CF7EBD600B24144 /* detail_alert_left.png */,
+				68F36C241CF7EBD600B24144 /* detail_alert_right.png */,
 				6875C0001CF7DDBA007306DD /* Main.storyboard */,
 				6875C0031CF7DDBA007306DD /* Assets.xcassets */,
 				6875C0051CF7DDBA007306DD /* LaunchScreen.storyboard */,
@@ -243,9 +254,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68F36C251CF7EBD600B24144 /* detail_alert_left.png in Resources */,
 				6875C0071CF7DDBA007306DD /* LaunchScreen.storyboard in Resources */,
 				6875C0041CF7DDBA007306DD /* Assets.xcassets in Resources */,
 				6875C0021CF7DDBA007306DD /* Main.storyboard in Resources */,
+				68F36C261CF7EBD600B24144 /* detail_alert_right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6875BFFF1CF7DDBA007306DD /* ViewController.m in Sources */,
+				6875C02F1CF7E210007306DD /* MyAlertView.m in Sources */,
 				6875BFFC1CF7DDBA007306DD /* AppDelegate.m in Sources */,
 				6875BFF91CF7DDBA007306DD /* main.m in Sources */,
 			);
@@ -496,6 +510,7 @@
 				6875C0231CF7DDBA007306DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6875C0241CF7DDBA007306DD /* Build configuration list for PBXNativeTarget "CustomAlertViewTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				6875C0261CF7DDBA007306DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6875C0271CF7DDBA007306DD /* Build configuration list for PBXNativeTarget "CustomAlertViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				6875C0291CF7DDBA007306DD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

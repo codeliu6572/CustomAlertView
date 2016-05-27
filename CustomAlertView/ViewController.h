@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
+#import "MyAlertView.h"
+@interface ViewController : UIViewController<MyAlertDelegate>
+@property(nonatomic,strong)MyAlertView *alertView;
 
 
 @end
