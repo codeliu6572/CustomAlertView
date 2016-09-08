@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		686FB46D1D810E7F0088C6F9 /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 686FB46C1D810E7F0088C6F9 /* MyAlertView.m */; };
+		686FB4711D81104D0088C6F9 /* MyAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 686FB4701D81104D0088C6F9 /* MyAlertView.m */; };
 		6875BFF91CF7DDBA007306DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875BFF81CF7DDBA007306DD /* main.m */; };
 		6875BFFC1CF7DDBA007306DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875BFFB1CF7DDBA007306DD /* AppDelegate.m */; };
 		6875BFFF1CF7DDBA007306DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6875BFFE1CF7DDBA007306DD /* ViewController.m */; };
@@ -38,8 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		686FB46B1D810E7F0088C6F9 /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
-		686FB46C1D810E7F0088C6F9 /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
+		686FB46F1D81104D0088C6F9 /* MyAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertView.h; sourceTree = "<group>"; };
+		686FB4701D81104D0088C6F9 /* MyAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertView.m; sourceTree = "<group>"; };
 		6875BFF41CF7DDBA007306DD /* CustomAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6875BFF81CF7DDBA007306DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6875BFFA1CF7DDBA007306DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +85,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		686FB46E1D81104D0088C6F9 /* LHHAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				686FB46F1D81104D0088C6F9 /* MyAlertView.h */,
+				686FB4701D81104D0088C6F9 /* MyAlertView.m */,
+			);
+			path = LHHAlertView;
+			sourceTree = "<group>";
+		};
 		6875BFEB1CF7DDBA007306DD = {
 			isa = PBXGroup;
 			children = (
@@ -112,8 +121,7 @@
 				6875BFFB1CF7DDBA007306DD /* AppDelegate.m */,
 				6875BFFD1CF7DDBA007306DD /* ViewController.h */,
 				6875BFFE1CF7DDBA007306DD /* ViewController.m */,
-				686FB46B1D810E7F0088C6F9 /* MyAlertView.h */,
-				686FB46C1D810E7F0088C6F9 /* MyAlertView.m */,
+				686FB46E1D81104D0088C6F9 /* LHHAlertView */,
 				68F36C231CF7EBD600B24144 /* detail_alert_left.png */,
 				68F36C241CF7EBD600B24144 /* detail_alert_right.png */,
 				6875C0001CF7DDBA007306DD /* Main.storyboard */,
@@ -283,8 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				686FB4711D81104D0088C6F9 /* MyAlertView.m in Sources */,
 				6875BFFF1CF7DDBA007306DD /* ViewController.m in Sources */,
-				686FB46D1D810E7F0088C6F9 /* MyAlertView.m in Sources */,
 				6875BFFC1CF7DDBA007306DD /* AppDelegate.m in Sources */,
 				6875BFF91CF7DDBA007306DD /* main.m in Sources */,
 			);
