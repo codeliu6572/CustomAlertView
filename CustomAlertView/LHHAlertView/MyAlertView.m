@@ -69,7 +69,7 @@
     message.textColor=[UIColor colorWithRed:0.31f green:0.31f blue:0.31f alpha:1.00f];
     message.font=[UIFont systemFontOfSize:15];
     [_alertBackView addSubview:message];
-    
+
     //    CAKeyframeAnimation * animation;
     //    animation = [CAKeyframeAnimation animationWithKeyPath:@"transform"];
     //    animation.duration = 0.5;
@@ -143,11 +143,7 @@
     [self removeFromSuperview];
     _blackView=nil;
     _alertBackView=nil;
-    for (UIView *view in _blackView.superview.superview.subviews) {
-        if ([view isKindOfClass:[UITextField class]]) {
-            [(UITextField *)view resignFirstResponder];
-        }
-    }
+
 }
 
 -(void)show
